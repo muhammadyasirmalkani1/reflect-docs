@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "app/globals.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": "true"
+  },
+  "aliases": {
+    "app": "@/app",
+    "pages": "@/app",
+    "public": "@/public",
+    "assets": "@/app/assets",
+    "styles": "@/app/styles",
+    "types": "@/app/types",
+    "constants": "@/app/constants",
+    "config": "@/app/config",
+    "services": "@/app/services",
+    "store": "@/app/store",
+    "features": "@/app/features",
+    "features/*": "@/app/features/*",
+    "features/*/*": "@/app/features/*/*",
+    "features/*/*/*": "@/app/features/*/*/*",
+    "features/*/*/*/*": "@/app/features/*/*/*/*",
+    "features/*/*/*/*/*": "@/app/features/*/*/*/*/*",
+    "features/*/*/*/*/*/*": "@/app/features/*/*/*/*/*/*",
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
+}
